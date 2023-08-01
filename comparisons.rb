@@ -22,24 +22,31 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # this should print: "Is numberTeachers greater than numberStudents?" false
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
+puts "is number_teachers less than number_students?", number_teachers < number_students
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
+puts "is number_teachers equal to string_teachers?", number_teachers == string_teachers
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
+puts "is number_teachers not equal to number_students?", number_teachers != number_students
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
+puts "is number_students greater than or equal to 20?", number_students >= 20
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
+puts "is number_students greater than or equal to 21?", number_students >= 21
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
+puts "is number_students less than or equal to 20?", number_students <= 20
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
+puts "is number_students less than or equal to 21?", number_students <= 21
 # this should print: true
 
 
@@ -54,20 +61,29 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 
 puts 4 < 9
 #YOU DO: Explain.
+# This is checking if the integer 4 is less than the integer 9
+# This should print: true
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+# This is checking whether or not the integer 4 is less than the integer stored in the variable books
+# This should print: true
+
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+# This is checking if the integer stored in the variable friends is greater than the integer stored in the variable siblings
+# This should print: true
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
+# This is checking if the integer stored in the variable attendees is NOT equal to the integer stored in the variable meals
+# This should print: true
 
 
 #-------------------
@@ -90,7 +106,7 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts 
 
 # Determine if the dog loves to play and loves the dog park
 
