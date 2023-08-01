@@ -106,15 +106,17 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-puts 
-
+puts loves_to_play && loves_treats
 # Determine if the dog loves to play and loves the dog park
-
-
+puts loves_to_play && loves_dog_park
 # Determine if the dog loves to play or loves the dog park
-
-
+puts loves_to_play || loves_dog_park
 # Determine if the dog loves to play and is a puppy
-
+puts loves_to_play && age
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: 
+# It evaluated to 1, and I think that is because age is not a boolean statement, but an integer statement. 
+# I believe that the simplest way to show whether or not the statement is true is to change the variable age = 1 to the variable puppy = true
+puppy = true
+puts loves_to_play && puppy
+
